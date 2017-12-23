@@ -1,1 +1,26 @@
+html, body {
+  font-size: 18px;
+}
+header {
+  display: flex;
+  background-color: black;
+  width: 960px;
 
+}
+header img {
+  border: 1px solid white;
+  height: 1.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+
+}
+h2 {
+  display: flex;
+  border: 1px solid;
+  font-size: 1rem;
+  color: white;
+  margin: 0.66rem 0;
+
+}
