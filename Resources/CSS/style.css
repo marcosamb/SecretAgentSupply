@@ -5,7 +5,7 @@ html, body {
                           /*HEADER SECTION*/
 header {
   display: flex;
-  background-color: blue;
+  background-color: black;
   justify-content: center;
 }
 
@@ -89,4 +89,145 @@ ul {
 }
 li {
   margin-top: 0.75rem;
+}
+
+                      /*CONTAINER SECTION*/
+div.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+}
+/*Row of images of Container section*/
+div.products {
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+  margin-top: 3rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+div.pen {
+  width: 30%;
+  height: 15rem;
+  overflow: hidden;
+  border: 4px solid;
+}
+div.pen img {
+  display: block;
+  height: 9rem;
+  width: auto;
+  margin: 2rem auto;
+
+}
+div.pen h3 {
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  color: white;
+  background-color: black;
+}
+
+div.watch {
+  width: 30%;
+  height: 15rem;
+  overflow: hidden;
+  border: 4px solid;
+}
+div.watch img {
+  display: block;
+  height: 9rem;
+  width: auto;
+  margin: 2rem auto;
+  }
+  div.watch h3 {
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    color: white;
+    background-color: black;
+  }
+
+  div.glasses {
+    width: 30%;
+    height: 15rem;
+    overflow: hidden;
+    border: 4px solid;
+  }
+  div.glasses img {
+    display: block;
+    max-width: 62.5%;
+    height: auto;
+    margin: 75px auto;
+  }
+  div.glasses h3 {
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    color: white;
+    background-color: black;
+  }
+
+/*Contact and Location*/
+div.contact {
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+
+}
+div.location {
+  width: 35%;
+  height: 4rem;
+}
+div.location h3 {
+  max-width: 100%;
+  padding-left: 2rem;
+  padding-right: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  background-color: black;
+}
+div.location p {
+  padding-top: 0.25rem;
+}
+div.hours {
+  width: 35%;
+  height: 4rem;
+}
+div.hours h3 {
+  max-width: 100%;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  background-color: black;
+}
+div.hours p {
+  padding-top: 0.25rem;
+}
+footer {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  height: 5rem;
+  border: 1px solid;
+}
+footer h3{
+  display: flex;
+  background-color: black;
+  width: 960px;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  text-align: left;
+  padding-top: 2rem;
 }
