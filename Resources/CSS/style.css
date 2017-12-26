@@ -91,6 +91,10 @@ li {
   margin-top: 0.75rem;
 }
 
+ul.mobilemenu {
+  display: none;
+}
+
                       /*CONTAINER SECTION*/
 div.container {
   display: flex;
@@ -181,7 +185,6 @@ div.contact {
   margin-bottom: 4rem;
   font-family: Helvetica;
   font-size: 1rem;
-
 }
 div.location {
   width: 35%;
@@ -214,6 +217,8 @@ div.hours h3 {
 div.hours p {
   padding-top: 0.25rem;
 }
+
+                          /*FOOTER*/
 footer {
   display: flex;
   background-color: black;
@@ -222,7 +227,7 @@ footer {
   border: 1px solid;
 }
 footer h3{
-  display: flex;
+  display: block;
   background-color: black;
   width: 960px;
   font-family: Helvetica;
@@ -230,4 +235,71 @@ footer h3{
   color: white;
   text-align: left;
   padding-top: 2rem;
+}
+/*RESEIZING CODE*/
+@media only screen and (max-width: 1024px) {
+  ul {
+    display: none;
+  }
+  ul.mobilemenu {
+    display: block;
+    text-align: center;
+  }
+  div.pen {
+    width: 47%;
+  }
+  div.watch {
+    width: 47%;
+  }
+  div.glasses {
+    display: none;
+  }
+}
+@media only screen and (max-width: 470px) {
+  div.mainbanner {
+    height: 15rem;
+  }
+  div.titles {
+    margin-top: 10rem;
+  }
+  div.titles h2 {
+    font-size: 0.77rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    width: 100%;
+  }
+
+  div.titles h1 {
+    font-size: 1rem;
+    padding-left: 2rem;
+    width: 100%;
+  }
+  div.products {
+    width: 960px;
+    justify-content: center;
+  }
+
+  div.pen {
+    width: 90%;
+  }
+
+  div.watch {
+    display: none;
+  }
+  div.contact {
+    justify-content: center;
+    width: 90%;
+    flex-direction: column;
+}
+div.location {
+  width: 100%;
+}
+
+div.hours {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+footer h3 {
+  text-align: center;
+}
 }
